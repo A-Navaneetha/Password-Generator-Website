@@ -10,15 +10,11 @@ A simple, responsive, and user-friendly Password Generator web application built
 
 * Password Generator Website looks like this :
   
-```markdown
-![Password Generator Site](screenshots/password-generator-site.png)
-```
+![Password Generator Site](/screenshots/password-generator-site.png)
 
 * If we enter the length of the password , then click Generate Password button and password gets generated.
    
-```markdown
-![Password Generated View](screenshots/password-generated-view.png)
-```
+![Password Generated View](/screenshots/password-generated-view.png)
 
 ## ✨ Features
 
