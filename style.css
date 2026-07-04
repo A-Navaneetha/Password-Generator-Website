@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#8dacd7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:450px;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#9a0808;
+}
+
+.password-box{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.password-box input{
+    flex:1;
+    padding:12px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.password-box button{
+    padding:12px 18px;
+    border:none;
+    background:#28a745;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.password-box button:hover{
+    background:#218838;
+}
+
+.options{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.options label{
+    font-weight:600;
+}
+
+.options input[type="number"]{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.options input[type="checkbox"]{
+    margin-right:8px;
+}
+
+#generateBtn{
+    width:100%;
+    padding:14px;
+    background:#0077b6;
+    color:#fff;
+    border:none;
+    border-radius:6px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#generateBtn:hover{
+    background:#023e8a;
+}
+
+/* ==========================
+   Tablet (768px and below)
+========================== */
+
+@media (max-width:768px){
+
+    .container{
+        max-width:500px;
+        padding:25px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+}
+
+/* ==========================
+   Mobile (480px and below)
+========================== */
+
+@media (max-width:480px){
+
+    body{
+        padding:15px;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    .password-box{
+        flex-direction:column;
+    }
+
+    .password-box button{
+        width:100%;
+    }
+
+    #generateBtn{
+        font-size:16px;
+        padding:12px;
+    }
+
+    .password-box input,
+    .options input[type="number"]{
+        font-size:15px;
+    }
+}
